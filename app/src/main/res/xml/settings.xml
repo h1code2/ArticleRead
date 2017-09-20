@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="主题设置">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="defaultplayer"
+            android:title="夜间模式" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="666"
+        android:title="点击切换主题配色" />
+
+</PreferenceScreen>
